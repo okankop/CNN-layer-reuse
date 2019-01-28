@@ -108,7 +108,6 @@ print("Total number of trainable parameters: ", pytorch_total_params)
 if args.resume_path:
     # Load checkpoint.
     print('==> Resuming from checkpoint..')
-    assert os.path.isdir('checkpoint'), 'Error: no checkpoint directory found!'
     checkpoint = torch.load(args.resume_path)
     net.load_state_dict(checkpoint['net'])
     best_acc = checkpoint['acc']
