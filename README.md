@@ -2,7 +2,7 @@ PyTorch implementation of the article [Convolutional Neural Networks with Layer 
 
 # CNNs with Layer Reuse
 
-<p align="center"><img src="https://github.com/okankop/CNN-layer-reuse/blob/master/pretrained/LRU-arch.jpg" align="middle" width="500" title="LRU architecture" /><figcaption>Fig. 1:  (a) Conventional design of CNNs,  (b) CNN design with layer reuse. Instead of stacking convolutional layers and feeding one layer’s output as input to another layer, we feed the output of a convolutional block as input to itself for N-times before passing it to the next block.</figcaption></figure></p>
+<p align="center"><img src="https://github.com/okankop/CNN-layer-reuse/blob/master/pretrained/LRU-arch.jpg" align="middle" width="300" title="LRU architecture" /><figcaption>Fig. 1:  (a) Conventional design of CNNs,  (b) CNN design with layer reuse. Instead of stacking convolutional layers and feeding one layer’s output as input to another layer, we feed the output of a convolutional block as input to itself for N-times before passing it to the next block.</figcaption></figure></p>
 
 ## Paper Abstract
 
